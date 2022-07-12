@@ -1,8 +1,12 @@
 import { Post } from "./Post";
+import { Header } from "./components/Header";
+
+import "./styles.css";
 
 export function App() {
   return (
     <div>
+      <Header></Header>
       <Post
         author="Ryan Vieira Souza"
         content="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque nesciunt
